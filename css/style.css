@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px;
 }
 
 /* slider */
@@ -35,7 +34,7 @@ body {
 
 .container .card {
   position: relative;
-  width: 320px;
+  width: 300px;
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
@@ -233,10 +232,11 @@ body {
 
 .container .lviv {
   position: relative;
-  width: 320px;
+  width: 300px;
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .container .lviv::before {
@@ -372,7 +372,7 @@ body {
 }
 
 .container .lviv .contentBx .size span:hover {
-  background: #dc5b28;
+  background: #08a4af;
 }
 
 .container .lviv .contentBx .color span {
@@ -408,10 +408,11 @@ body {
 /* slide 3*/
 .container .dnipro {
   position: relative;
-  width: 320px;
+  width: 300px;
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .container .dnipro::before {
@@ -584,10 +585,11 @@ body {
 /* slide 4*/
 .container .kharkiv {
   position: relative;
-  width: 320px;
+  width: 300px;
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .container .kharkiv::before {
@@ -723,7 +725,7 @@ body {
 }
 
 .container .kharkiv .contentBx .size span:hover {
-  background: #dc5b28;
+  background: #af0bc5;
 }
 
 .container .kharkiv .contentBx .color span {
@@ -759,10 +761,11 @@ body {
 /* slide 5*/
 .container .mariupol {
   position: relative;
-  width: 320px;
+  width: 300px;
   height: 450px;
   border-radius: 20px;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .container .mariupol::before {
@@ -898,7 +901,7 @@ body {
 }
 
 .container .mariupol .contentBx .size span:hover {
-  background: #dc5b28;
+  background: #b4b2b2;
 }
 
 .container .mariupol .contentBx .color span {
@@ -913,11 +916,11 @@ body {
 
 .container .mariupol .contentBx a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background: #fff;
   border-radius: 4px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   color: #111111;
   opacity: 0;
   transform: translateY(50px);
